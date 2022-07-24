@@ -1,0 +1,23 @@
+
+/*Double box-shadow */
+.bx-sh1 {
+    box-shadow: 0px 10px 50px 10px rgba(134,147,148,0.81)
+}
+
+.bx-sh2 {
+    box-shadow: 0px 10px 50px 10px rgba(0,0,0,0.81);
+}
+
+.sh-brd-bg {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255,255,255, 0.18);
+    border-radius: 32px;
+}
+
+.selected {
+    color: #003551;
+    text-decoration: overline;
+}

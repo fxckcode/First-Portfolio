@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style/general.css">
+    <link rel="stylesheet" href="./style/componets.css">
+    <link rel="stylesheet" href="./style/animations.css">
+    <link rel="stylesheet" href="./style/bg.css">
+    <link rel="stylesheet" href="./style/scrollbar.css">
+    <!-- Icon --->
+    <link rel="icon" href="./img/icons8-código-48.png">
+    <!-- TItle -->
+    <title>Home | My portfolio</title>
+</head>
+<body>
+    <header id="main-header">
+        <nav class="sh-brd-bg nav">
+            <a href="" class="logo draw"><i class="fa-solid fa-code"></i> Diego</a>
+            <div class="nav2">
+                <ul>
+                    <li><a href="#" class="selected">Home</a></li>
+                    <!--<li><a href="#">Curriculum</a></li>-->
+                    <li><a href="#card2">Contact Me</a></li>
+                    <!--<li><a href="#">Proyectos</a></li>-->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="card">
+        <div class="circle bx-sh2">
+            <h2>Hello!</h2>
+            <h2>I am Diego!</h2>
+            <span></span>
+            <p>Full-Stack, bash-scripting, UX Designer </p>
+        </div>
+        <div class="flecha general">
+            <img src="./img/images3.webp" alt="flecha" height="100px">
+       </div>
+    </div>
+    <section>
+        <div class="card2" id="card2">
+            <div class="section sh-brd-bg">
+              <div class="navegation">
+                <span class="red"></span>
+                <span class="yellow"></span>
+                <span class="green"></span>
+                <div class="left">
+                  <i class="fa-solid fa-arrow-down icon"></i>
+                  <i class="fa-solid fa-align-justify icon"></i>
+                </div>
+              </div>
+              <div class="terminal ">
+                <p><span class="shell">~ ➡</span><span class="program">batcat</span> aboutMe.txt</p>
+                <div class="about">
+                    <div class="imagen">
+                        <img src="./img/letter-d-creative-logo-template-vector-illustrator.jpg" alt="logo">
+                    </div>
+                    <div class="text">
+                        <p>Hello! </p>
+                        <p>My name is Diego</p>
+                        <p>I'm a passionate and enthusiastic programmer</p>
+                        <p>I like the philosophy and customizing Windows Tiling Managers on Arch Linux 🐧</p>
+                    </div>
+                </div>
+                  <p><span class="shell">~ ➡</span><span class="program">batcat</span> mySocialNetworks.txt</p>
+                  <div class="social sh-brd-bg">
+                      <a href="https://discord.gg/FHxVzQytxR" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                      <a href="https://www.instagram.com/diegocode_11/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://github.com/ArchDiego" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal().reveal('.nav', {
+    delay: 400,
+    distance: '80px',
+    origin: 'bottom',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.circle', {
+    delay: 400,
+    distance: '100px',
+    origin: 'bottom',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.nav2', {
+    delay: 700,
+    distance: '100px',
+    origin: 'left',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.logo', {
+    delay: 800,
+    distance: '100px',
+    origin: 'right',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.flecha', {
+    delay: 600,
+    distance: '100px',
+    origin: 'top',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.section', {
+    delay: 800,
+    distance: '100px',
+    origin: 'right',
+    duration: 1000,
+    reset: true
+  });
+</script>
+</html>

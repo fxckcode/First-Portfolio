@@ -1,0 +1,230 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #010101;
+}
+
+body {
+    background-image: url(../img/pexels-johannes-plenio-1103970.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Kdam Thmor Pro";
+}
+
+#main-header {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+
+nav .logo {
+    margin: 10px 0px;
+    padding: 10px;
+    margin-left: 60px;
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+nav .nav2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 23px 0px;
+    margin-right: 50px;
+    font-size: 1.25em;
+}
+
+nav .nav2 ul li {
+    padding: 0px 20px;
+}
+
+nav .nav2 ul li a:hover {
+    text-decoration: overline;
+    color: #003551;
+    font-size: 1.2em;
+}
+
+.card {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #003551;
+}
+
+.circle h2 {
+    font-size: 2em;
+    color: white !important;
+}
+
+.circle p {
+    color: white !important;
+}
+
+.circle span {
+    background-color: white;
+    height: 3px;
+    width: 30%;
+    margin: 5px 0px 10px 0px;
+}
+
+.flecha {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    transform: rotate(240deg);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #003551;
+}
+
+.card2 {
+    display: flex;
+    margin: 200px;
+}
+
+.section {
+    height: 50vh;
+    width: 600px;
+    background-color: #1a1b26;
+    border-radius: 10px;
+}
+
+.section .navegation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    margin: 15px 1px;
+    border-bottom: 1px solid gray;
+}
+
+.section .navegation .left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 460px;
+}
+
+.section .navegation .left .icon {
+    margin: 0px 5px;
+    color: gray;
+}
+
+.section .navegation .left .icon:hover {
+    color: white;
+}
+
+.section .navegation span {
+    margin: 0px 5px;
+}
+
+.section .navegation .red {
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.section .navegation .yellow {
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.section .navegation .green {
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.section .navegation span[class="red"] {
+    margin-left: 10px;
+}
+
+.section .terminal p .shell {
+    font-size: 1.4em;
+    color: #60daaa;
+    margin-left: 10px;
+}
+
+.section .terminal p .program {
+    color: gray;
+}
+
+.section .terminal .about {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.section .terminal .about .imagen img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.section .terminal .about .text{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.section .terminal .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 200px;
+}
+
+.section .terminal .social a i {
+    color: gray;
+    margin: 10px 10px;
+    font-size: 1.4em;
+}
+
+.section .terminal .social a i:hover {
+    color: white;
+}
+
+.section .terminal p{
+    color: white;
+}
