@@ -129,7 +129,7 @@ section {
     height: 40px;
     padding: 15px 1px;
     border-bottom: 1px solid gray;
-    background: #393740;
+    background: rgba(39, 37,40, 0.80);
     border-radius: 32px 32px 0px 0px;
 }
 
