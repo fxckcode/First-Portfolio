@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1200px) {
+    .section {
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card2 {
+        margin: 200px 0px;
+    }
+    .section {
+        height: 45vh;
+        width: 550px;
+    }
+
+    .section .navegation .left {
+        margin-left: 400px;
+    }
+}
